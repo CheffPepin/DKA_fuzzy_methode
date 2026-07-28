@@ -124,27 +124,6 @@ Additional evaluation may include:
 * Recall
 * F1-score
 
-## Project Structure
-
-
-├── dataset/
-└── winequality-white.csv
-│
-├── notebooks/
-│   └── fuzzy_white_wine.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── membership.py
-│   ├── rules.py
-│   └── inference.py
-│
-├── results/
-│   ├── confusion_matrix.png
-│   └── accuracy.png
-│
-└── README.md
-
 ## Technologies Used
 
 * Python
