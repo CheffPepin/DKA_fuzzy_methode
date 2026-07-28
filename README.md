@@ -40,42 +40,32 @@ The dataset used is the **White Wine Quality Dataset** from the UCI Machine Lear
 
 ## Project Pipeline
 
-Dataset
-     │
-     ▼
-Data Preprocessing
-- Handle missing values
-- Feature selection
-- Normalization (optional)
-     │
-     ▼
-Define Membership Functions
-- Low
-- Medium
-- High
-     │
-     ▼
-Build Fuzzy Rules
-Example:
-IF Alcohol is High
-AND Volatile Acidity is Low
-THEN Wine Quality is High
-     │
-     ▼
-Fuzzy Inference System
-(Mamdani)
-     │
-     ▼
-Defuzzification
-(Centroid Method)
-     │
-     ▼
-Predicted Quality
-     │
-     ▼
-Performance Evaluation
-- Accuracy
-- Confusion Matrix
+1. Dataset
+     
+2. Data Preprocessing
+     - Handle missing values
+     - Feature selection
+     - Normalization (optional)
+    
+3. Define Membership Functions
+     - Low
+     - Medium
+     - High
+
+4. Build Fuzzy Rules
+     Example:
+     IF Alcohol is High
+     AND Volatile Acidity is Low
+     THEN Wine Quality is High
+   
+5. Fuzzy Inference System (Mamdani)
+   
+6. Defuzzification (Centroid Method)
+    
+7. Predicted Quality
+     Performance Evaluation
+     - Accuracy
+     - Confusion Matrix
 
 ## Fuzzy System
 
@@ -136,8 +126,9 @@ Additional evaluation may include:
 
 ## Project Structure
 
+
 ├── dataset/
-│   └── winequality-white.csv
+└── winequality-white.csv
 │
 ├── notebooks/
 │   └── fuzzy_white_wine.ipynb
